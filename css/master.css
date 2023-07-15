@@ -1228,6 +1228,11 @@ ul {
     }
 }
 
+@media (max-width: 470px) {
+    .team {
+        background-image: url(../imgs/team_rect.jpeg);
+    }
+}
 
 .team::after {
     content: "";
