@@ -1021,7 +1021,7 @@ ul {
 }
 
 .main-title.our-videos {
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 
 .videos .cards {
@@ -1472,6 +1472,14 @@ ul {
     background-color: var(--main-color);
     position: relative;
 }
+
+@media (max-width:991px) {
+    .main-title.contact-title {
+        margin-bottom: 0;
+    }
+}
+
+
 
 .contact .container {
     display: flex;
