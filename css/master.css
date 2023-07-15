@@ -152,8 +152,6 @@ ul {
 
 .main-title:hover {
     color: var(--main-color);
-    transition-delay: var(--main-transition);
-    background-color: var(--text-color);
 }
 
 .main-title:hover::after {
